@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let counterValues of dataServ.counterValuesSubject | async">
+  <span>changes: <b>{{counterValues.changes}} </b> </span>
+  <span>value: <b>{{counterValues.value}} </b> </span>
+  <span>type: <b>{{counterValues.type}} </b> </span>
+
+  </li>
+</ul>
